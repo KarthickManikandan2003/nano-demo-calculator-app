@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Endpoint to check availability
 @app.route('/calculator/greeting', methods=['GET'])
 def greeting():
-    return "Hello world!", 200
+    return "hello world!", 200
 
 # Endpoint to perform addition
 @app.route('/calculator/add', methods=['POST'])
